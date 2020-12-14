@@ -5,8 +5,15 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
-    name: 'Index'
+    name: 'Index',
+    created() {
+      this.getTask();
+    },
+    methods: {
+      ...mapActions(['getTask'])
+    },
 }
 </script>
 

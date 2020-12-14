@@ -2,14 +2,14 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCr0XTX9FIGzAVwHRJm-Da8pTtJ4AdIzIM",
-    authDomain: "crud-a613a.firebaseapp.com",
-    projectId: "crud-a613a",
-    storageBucket: "crud-a613a.appspot.com",
-    messagingSenderId: "436818619625",
-    appId: "1:436818619625:web:3c3302a08553b376f91478"
+    apiKey: "AIzaSyDIglbi4yGTPKtAXEN0Nwy6ZjVdiixTmAk",
+    authDomain: "crud-fe5f5.firebaseapp.com",
+    projectId: "crud-fe5f5",
+    storageBucket: "crud-fe5f5.appspot.com",
+    messagingSenderId: "702251244699",
+    appId: "1:702251244699:web:35cc38adc53dc67c45fa3e"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   const db = firebase.firestore();
-  export { db }
+  export { db };
